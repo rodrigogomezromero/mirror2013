@@ -1,0 +1,111 @@
+/*-------------- Article y Secciones ---------------- */
+
+#cuerpo{width: 75%;margin: 0 auto;}
+
+#secciones{margin: 30px 0 30px 0; width: 100%; }
+
+#secciones section,div {float: left; }
+
+
+
+/*-------------- Formulario de contacto ---------------- */
+#form-container{
+	width: 1024px;
+	height:600px;
+	margin:20px auto;
+	clear:both;
+
+}
+.form-contact{
+	
+	width: 50%;
+	height: 100%;
+	
+	color:#0F9FFF;
+	font-family: fantasy;
+	font-weight: normal;
+	font-size: 20px;
+	float:right;
+}
+
+.form-contact input{
+	width: 50%;
+	height:25px;
+	border-radius: 15px;
+	margin:15px;
+	border: solid #ccc 1px;
+}
+.form-contact input:focus ,textarea:focus{
+	box-shadow: 0px 0px  10px 2px #0F9FFF;
+}
+
+.form-contact textarea{
+	width: 70%;
+	height: 50%;
+}
+.form-contact button{
+	background:#0F9FFF;
+	border: #0f9fff solid 2px;
+	color: #ededed;
+	padding: 6px;
+	width: 120px;
+}
+
+/*-------------- Contacto INFO ---------------- */
+
+.form-images-container{
+	width:25%;
+	height:50%;
+	margin-left:15%;
+	margin-top:10%; 
+
+
+}
+.images-contacto{
+	width: 100%;
+	height: 50%;
+	margin: 10px auto;
+
+	background:url(http://lorempixel.com/500/500/sports/rodrigo/);
+	text-align:center;
+	
+}
+
+
+.form-images-info{
+background: #fff;
+width: 100%;
+
+}
+
+/*-------------- Responsive  design ---------------- */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	#form-container{
+		max-width: 480px;
+		min-width: 320px;
+		height: auto;
+	}
+	.form-contact textarea{
+		width: 110%;
+		height: 250px;
+	
+
+	}
+	.form-contact input{
+		width: 100%;
+	}
+	.form-contact{
+		float:none;
+	}
+
+	.form-images-container{
+		margin-left:none;
+		width: 270px;
+		height: 250px;
+	}
+
+	.images-contacto{
+		height: 50%;
+	}
+}
