@@ -1,0 +1,99 @@
+/* Responsive heart design */
+
+/* Ipads y Notebooks */
+@media screen and (max-width: 1054px){
+	
+	header{
+	background: -moz-linear-gradient(-45deg,  #fff 30%, #131414 30%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(30%,#fff), color-stop(30%,#131414)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #fff 30%,#131414 30%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #fff 30%,#131414 30%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #fff 30%,#131414 30%); /* IE10+ */
+	background: linear-gradient(135deg,  #fff 30%,#131414 30%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#131414',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+	#info nav{margin-top: 15px;}
+
+	#info nav ul li{width: 30%;}
+
+	.enca{font-size: 14px;}
+
+}
+/* Tablets pequeña y  medianas */
+@media screen and (max-width: 850px){
+	
+	#cycle{	height: 330px;}
+
+	header{
+	background: -moz-linear-gradient(-45deg,  #fff 35%, #131414 35%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(35%,#fff), color-stop(35%,#131414)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #fff 35%,#131414 35%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #fff 35%,#131414 35%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #fff 35%,#131414 35%); /* IE10+ */
+	background: linear-gradient(135deg,  #fff 35%,#131414 35%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#131414',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+		
+	#pre-footer #in section{width: 48%;}
+
+	#pre-footer #in #contac-foot{width: 95%;}
+
+	#contac-foot #contact{text-align: left;}
+}
+
+@media screen and (max-width: 600px){
+
+	/* Aqui se ocultara el cycle para mostrar 
+		una foto estatica presentable */
+
+	#cycle{display: none;}
+
+	#cycle-static{display: block;}
+
+	#info{
+		height: 140px;
+		padding: 0; }
+
+	#info nav{
+		padding: 0;
+		margin-top: 10px; }
+
+	#info nav ul li{
+		width: 45%;
+		margin-left: -5%; }
+
+	#logo,#info{
+		background: #131414;
+		width: 100%; }
+
+	#logo{background: #fff;}
+
+	#logo hgroup h1{
+		margin: 0 auto;
+		width: 100%;
+		background-position: center;
+		text-align: center; }
+
+	#pre-footer #in section{width: 95%;}	
+}
+/* Smartphones pequeños (normal) */
+@media screen and (max-width: 400px){
+
+	#info{height: 250px;}
+
+	#info nav{margin-top: 0px;}
+
+	#info nav ul li{margin-left: -10%; width: 90%;}
+		
+	footer	{height: 70px;}		
+
+	#copy{width: 55%;}
+
+	#copy a{font-size: 12px;}
+
+	#social{width: 45%;}
+
+	#social a:first-child img{
+	margin-left: 5%;}
+}

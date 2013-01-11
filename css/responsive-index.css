@@ -1,0 +1,149 @@
+/* Responsive index design */
+
+/* ------------------Responsive design ---------------------------*/
+
+/* Standart Laptop */
+/* ------------------Responsive design ---------------------------*/
+
+
+@media screen and (max-width: 1054px){
+	#llamativ{
+		padding-bottom: 100px;
+	}
+
+	#llamativ h2{
+		width: 40%;
+	}
+
+	#llamativ p{
+		top: 15px;
+		left: 10%;
+		width: 50%;
+	}
+
+	#llamativ .btn-naranja{
+		width: 95%;
+		left: 30%;
+	}
+	#impts{
+	width: 80%;
+	margin-left: 10%;
+	}
+
+	#media{
+	width: 86%;
+	margin-left: 7%;
+	
+	}
+
+	#impts p{
+	width: 90%;
+	}
+
+	.prevista{
+		width: 90%;
+	}
+	#facebook, #twt{
+		width: 90%;
+	}
+
+	
+}
+
+@media screen and (max-width: 850px){
+	#llamativ h2{
+		font-size: 28px;
+	}
+
+	#impts a{
+	width: 40%;	
+	}
+
+}
+
+@media screen and (max-width: 600px){
+	
+	#impts{
+	width: 100%;
+	margin-left: 0;
+	}
+
+	#media{
+	margin-left: 0;
+	width:100%;
+	}
+	#impts #contenido{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.prevista{
+	width: 100%;	
+	}	
+		
+
+	#llamativ{
+		text-align: center;
+		padding-bottom: 120px;
+	}
+
+	#llamativ h2{
+		width: 100%;
+		font-size: 26px;
+	}
+
+	#llamativ p{
+		width: 100%;
+		left: 5%;
+	}
+
+	#llamativ .btn-naranja{
+		top: 70px;
+		left: 20%;
+		text-align: left;
+	}
+
+}
+
+
+
+@media screen and (max-width: 400px){
+	.prevista, .prevista img{
+			height: 180px;
+		}
+
+		#impts section h2{
+		font-size: 24px;
+		}
+
+		#impts section p{
+		font-size: 14px;
+		}
+
+		#impts section a{
+		width: 25%;
+		}
+
+		#llamativ .btn-naranja{
+			width: 100%;
+			left: 5%;
+		}
+
+		.btn-naranja img{
+			left: -49px;
+			top: -49px;
+			width: 111px;
+			height: 111px;
+		}
+
+		.btn-naranja a{
+			width: 100%;
+		font-size: 14px;
+		color: white;
+		padding: 13px 13px 13px 45px;
+		border-radius: 8px;
+		text-decoration: none;
+		}
+
+
+}	

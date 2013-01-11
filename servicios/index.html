@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Mirror Hosting | Servicios de diseño web y más</title>
+
+<!--StyleSheets -->
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	@import url("../css/heart.css");
+	@import url("../css/responsive_heart.css");
+	@import url("css/services.css");
+	@import url("css/responsive-services.css");	
+</style>
+
+
+<!-- JQuerys & JS -->
+<!-- IE y Nieve
+<script type="text/javascript" src="js/IEmiracle.js"></script>
+<script type="text/javascript" src="js/nieve-cursors.js"></script>
+-->
+
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.cycle.js"></script>
+<script type="text/javascript" src="../js/fx.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<script type="text/javascript">
+function leer(vision){
+	$("#oc"+vision).fadeIn(500, function () {
+            $("#but"+vision).attr("href","javascript:noLeer("+vision+")");
+            $("#but"+vision).text("Ocultar");
+          });
+}
+
+function noLeer(vision){
+	$("#oc"+vision).fadeOut(500, function () {            
+            $("#but"+vision).attr("href","javascript:leer("+vision+")");
+            $("#but"+vision).text("Leer más");
+          });
+}
+
+</script>
+
+</head>
+<body>
+
+	<header>
+
+	<div id="logo">
+	<hgroup><h1>
+	Diseño Web Chetumal Mirror Hosting
+	</h1></hgroup>
+	</div>
+	
+	<div id="info">
+	<nav>
+<ul>
+	<li><a href="../" >Inicio</a></li>
+	<li><a class="denom" href="" >Servicios</a></li>
+	<li><a href="../portafolios/">Portafolios</a></li>
+	<li><a href="../contacto/">Contacto</a></li>
+	<li><a href="../blog/">Blog</a></li>
+	<li><a href="../acerca-de/">Acerca de</a></li>
+</ul>
+</nav>
+	</div>
+
+
+
+</header>
+
+
+<article id="cuerpo">
+
+
+
+<div id="cycle">
+    		<div id="contslider">
+            <img src="../cycle/debian_wall2.jpg" />          
+            <img src="../cycle/portadafbk.jpg" />		
+			</div>
+</div>
+<div id="cycle-static">
+    		<div id="contslider">
+            <img src="../cycle/debian_wall2.jpg" />          		
+			</div>
+</div>
+
+
+<div id="secciones">
+
+<div id="llamativ">
+<h2>
+<a>SERVICIOS</a> DE 
+<a>WEB Y</a> MÁS
+</h2>
+
+<p>
+Mirror Hosting te ofrece servicios únicos y completos para llevar tu empresa a través de la web y las redes sociales
+</p>
+
+	<div class="btn-naranja" >
+		<img src="../images/newlogoxmas.png" width="150px" height="150px">
+		<a href="#">¡Cotiza tu plan aquí!</a>
+	</div>
+</div>
+
+
+
+
+<div id="impts">
+
+ <section id="contenido1">
+
+ 		<figure class="prevista">
+ 			<img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/165084_563997226961442_1678931290_n.jpg">
+ 		</figure>
+
+		<h2>Diseño Web</h2>
+ 	
+ 		<p>Mirror Hosting utiliza las ultimas tecnologias en diseño web para mejorar la visualización, rendimiento y búsqueda de tu página web, lee más para descubrir los servicios que puede incluir tu página web.<br> <span id="oc1" class="oculto">
+ 		-Galerias de imágenes.<br>
+ 		-Interactividad y efectos sin flash*.<br>
+ 		-Integración con las redes sociales.<br>
+ 		-Formularios de contácto.<br>
+ 		-Optimización de velocidad.<br>
+ 		-Posicionamiento en Google.<br>
+ 		-Reporte mensual de visitas.<br>
+ 		-Diseño para multiples navegadores.<br>
+ 		-Diseño adaptado a varios dispositivos.<br>
+ 		-Sitios multilenguaje.<br>
+ 		-Alta en Google Maps.<br>
+ 		Más los diversos servicios con los que contamos para ti.
+ 		</span></p>
+ 		<a href="javascript:leer(1)" class="btn-leer" id="but1">Leer más</a>
+ 	
+ </section>
+
+<section id="contenido2">
+
+ 		<figure class="prevista">
+ 			<img src="http://www.muycomputer.com/files/HIDDEN_264_15175_FOTO_Dell_servidores.jpg">
+ 		</figure>
+
+		<h2>Servicio de alojamiento de páginas</h2>
+ 	
+ 		<p>¿Tenias una página web pero ya no se ve y te han dejado mal? ¿Eres desarrollador web y buscas un hosting con múltiples herramientas?.<br> <span id="oc2" class="oculto">No busques más, somos la solución a tu problema, contamos con un efectivo servicio de almacenamiento de páginas para que solo te preocupes por disfrutar de tu página web y para desarrolladores contamos con múltiples herramientas para tus proyectos con alta disponibilidad y mejoras de velocidad. Contáctanos para mayor información en caso de ser desarrollador.</span></p>
+ 		<a href="javascript:leer(2)" id="but2">Leer más</a>
+</section>
+
+
+ <section id="contenido1">
+
+ 		<figure class="prevista">
+ 			<img src="http://villa-diamante.com/salon/galeria/palapa_campestre_noche12.JPG">
+ 		</figure>
+
+		<h2>Fotografía</h2>
+ 	
+ 		<p>La presentación de los productos y la empresa en la red es muy importante, para eso nada mejor e impactante que una buena fotografía a precio accesible.<br> <span id="oc3" class="oculto">Nuestro servicio de fotografía esta orientado a mejorar la presentación de su producto para impactar en las redes sociales, blog o sitio web y así atraer una mejor clientela a un producto más vistoso. <br>Consulta nuestros paquetes donde ofrecemos descuentos y hasta el servicio gratuito de fotografía de productos o empresa.</span></p>
+ 		<a href="javascript:leer(3)" id="but3">Leer más</a>
+ 	
+ </section>
+
+
+ <section id="contenido2">
+
+ 		<figure class="prevista">
+ 			<img src="http://www.luiscarlosmorales.com/wp-content/uploads/2011/12/google-adwords-big1.jpg">
+ 		</figure>
+
+		<h2>Asesoramiento en Search Engine Marketing</h2>
+ 	
+ 		<p>¿Alguna vez ha escuchado acerca de Google AddWorks o SEM? ¿Sabes como puede darse a conocer tu empresa más alla de la red?<br> <span id="oc4" class="oculto">SEM que de sus siglas en ingles se refiere al marketing en motores de búsqueda es un servicio de Google para crear campañas publicitarias en la web con el objetivo de atraer a visitantes de todas partes del mundo a conocer su sitio web y con ello su producto. Mirror Hosting ofrece en algunos de sus paquetes cupones de $900 para ayudarlo a iniciar su campaña y contamos también con el servicio de asesoramiento para cualquier duda que tengas al respecto.</span></p>
+ 		<a href="javascript:leer(4)" id="but4">Leer más</a>
+ 	
+ </section>
+
+ <section id="contenido1">
+
+ 		<figure class="prevista">
+ 			<img src="http://soxialmedia.com/wp-content/uploads/2011/10/redes-sociales-empresas-peque%C3%B1as.jpg">
+ 		</figure>
+
+		<h2>Manejo profesional de redes sociales</h2>
+ 	
+ 		<p>Con la consolidación de las redes sociales, muchas empresas buscan tener presencia en estos sitios para atraer nuevos clientes, sin embargo, no es tan fácil como parece al principio.<br> <span id="oc5" class="oculto">Una mala campaña, una planificación desordenada de promociones y concursos, una persona a cargo con poca paciencia y sin conocimiento alguno de la empresa pueden crear un impacto negativo en la imagen social de tu empresa y disminuir considerablemente el número de clientes y la imagen de la empresa. La figura del Social Media Manager surge en estos días como la persona encargada de planificar campañas, creación de contenido, atención al cliente, entre otras tareas en las redes sociales con el objetivo de conseguir nuevos clientes y crear lealtad en ellos al ofrecerles un trato personal a sus quejas y sugerencias así como generar interés en los contenidos creados en la red social. No dejes tu red social en manos de servicios que solo generan publicidad aburrida y trato indiferente al cliente, utiliza esta tecnología al máximo en personas que tienen constante capacitación y actualización acerca de este gran servicio.</span></p>
+ 		<a href="javascript:leer(5)" id="but5">Leer más</a>
+ 	
+ </section>
+
+
+ <section id="contenido2">
+
+ 		<figure class="prevista">
+ 			<img src="http://www.enubes.com/images/stories/img_app_02.jpg">
+ 		</figure>
+
+		<h2>Programación de sistemas web</h2>
+ 	
+ 		<p>En la actualidad las páginas web no solo sirven para poder dar a conocer información, pueden ser usadas como una herramienta o todo un conjunto de estas.<br><span id="oc6" class="oculto">Las aplicaciones web son poderosas y cómodas al tener en cualquier parte del mundo y con algun navegador el acceso a estas sin restricciones. Ofrecemos creación de aplicaciones web desde sistemas de reservación en línea hasta todo un sistema bien estructurado de herramientas para tu empresa.</span></p>
+ 		<a href="javascript:leer(6)" id="but6">Leer más</a>
+ 	
+ </section>
+
+  <section id="contenido1">
+
+ 		<figure class="prevista">
+ 			<img src="http://www.enubes.com/images/stories/img_app_02.jpg">
+ 		</figure>
+
+		<h2>E-mails personalizados</h2>
+ 	
+ 		<p>¿Quiéres mantener al día a tus clientes acerca de tus ofertas, artículos o nuevos productos? El servicio de e-mail personalizado es la solución para ti.<br> <span id="oc7" class="oculto">Las grandes empresas mantienen actualizado a sus clientes acerca de ofertas, productos nuevos, información relevante o simplemente alguna felicitación afectuosa mediante los e-mail, Mirror Hosting cuenta con el servicio de creación de plantillas de correo para una mayor personalización de sus mensajes y creación de campañas de correos para un mejor orden y seguimiento.</span></p>
+ 		<a href="javascript:leer(7)" id="but7">Leer más</a>
+ 	
+ </section>
+
+</div>
+
+
+
+</article>
+
+
+<section id="pre-footer">
+	<div id="in">
+
+	<section>
+			<a class="enca"><h2  id="mh">Mirror Hosting</h2></a>
+		<div class="cont">
+				<ul id="nav">
+					<li><a href="../" >Inicio</a></li>
+					<li><a href="" >Servicios</a></li>
+					<li><a href="../portafolios/">Portafolios</a></li>
+					<li><a href="../contacto/">Contacto</a></li>
+					<li><a href="../blog/">Blog</a></li>
+					<li><a href="../acerca-de/">Acerca de</a></li>
+				</ul>
+		</div>
+	</section>
+
+	<section>
+			<a class="enca"><h2>¿Quiénes somos?</h2></a>
+		<div class="cont">
+			<p>Somos personas amantes de nuestro trabajo y en constante investigación para darles a nuestros clientes un servicio y producto de calidad y satisfacción, no usamos plantillas, diseñamos desde cero para lograr una personalización completa en nuestras páginas. 
+			</p>
+		</div>
+	</section>
+
+	<section id="contac-foot">
+			<a class="enca"><h2>Contacto</h2></a>	
+		<div class="cont">
+			<div id="contact">
+					<p><img src="../images/mobile.png" id="mov"> 9831240976</p>
+					<p><img src="../images/mobile.png" id="mov"><img src="../images/whatsapp.png" id="mov"> 9821080068</p>
+					<p><img src="../images/mobile.png" id="mov"><img src="../images/whatsapp.png" id="mov"> 9821250492</p>
+					<p id="mail">Mail: <a>contacto@mirrorwebhost.com</a></p>
+				<p style="margin-right: 50px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2Fpx%2Fmirrorwebhost.com&amp;send=false&amp;layout=standard&amp;width=230&amp;show_faces=false&amp;action=like&amp;colorscheme=dark&amp;font=arial&amp;height=45" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:230px; height:45px;" allowTransparency="true"></iframe></p>
+				</div>
+		</div> 
+	</section>
+
+
+	</div>
+</section>
+
+<footer>
+<div id="copy">
+
+	<a href="">&copy; 2012 por Mirror Hosting Diseño Web Chetumal México</a>
+
+</div>
+
+<div id="social">
+<a href="https://www.facebook.com/MirrorHosting" target="_blank"><img src="../images/fb.png"></a>
+<a href="https://twitter.com/MirrorHosting" target="_blank"><img src="../images/twitter1.png"></a>
+<a href="https://www.youtube.com/user/9831240976" target="_blank"><img src="../images/you_tube.png"></a>
+</div>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* Srevicios --> http://mirrorwebhost.com */
+
+
+
+/* Article y Secciones  */
+
+#cuerpo{
+width: 75%;
+margin: 0 auto;
+	}
+
+#secciones{margin: 30px 0 30px 0; width: 100%; }
+
+#secciones section,div {float: left; }
+
+
+
+
+/* Secciones centrales */
+
+/* Introductorios */
+#impts{
+	width: 100%;
+	margin-top: 20px;
+	}
+
+
+
+#impts section{
+	float: left;
+	background: white;
+	position: relative;
+	margin-top: 30px;
+	width: 30%;
+	margin-left: 3%;
+}
+
+

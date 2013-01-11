@@ -1,0 +1,167 @@
+/* Servicios --> http://mirrorwebhost.com/servicios */
+
+/*-------------- Article y Secciones ---------------- */
+
+#cuerpo{width: 75%;margin: 0 auto;}
+
+#secciones{margin: 30px 0 30px 0; width: 100%; }
+
+#secciones section,div {float: left; }
+
+/* -----------------Seccion introductoria --------------------*/
+#llamativ{
+	width: 100%;
+	border-bottom: 1px dotted #EAEAEA;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+#llamativ h2{
+	position: relative;
+	left: 15px;
+	 color: #0F9FFF;
+	 letter-spacing: -2px;
+	 font-size: 30px;
+	 width: 20%;
+	 float: left;
+}
+
+#llamativ h2 a{	color: white;}
+
+#llamativ p{
+	font-size: 14px;
+	left: 60px;
+	color: white;
+	text-align: center;
+	position: relative;
+	float: left;
+	width: 32%;
+}
+
+/* Botones MirrorHosting */
+
+#llamativ .btn-naranja{
+	position: relative;
+	float: left;
+	left: 160px; 
+	top: 40px;
+	width: 35%;
+
+}
+
+.btn-naranja img{
+	position: absolute;
+	left: -68px;
+	top: -68px;
+	z-index: 2;
+}
+
+.btn-naranja a{
+	font-size: 18px;
+	color: white;
+	padding: 20px 20px 20px 65px;
+	border-radius: 8px;
+	text-decoration: none;
+background: #f34d03; /* Old browsers */
+background: -moz-linear-gradient(top,  #f34d03 1%, #ff7000 26%, #ff9030 43%, #ff9335 60%, #ff7000 85%, #f34d03 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f34d03), color-stop(26%,#ff7000), color-stop(43%,#ff9030), color-stop(60%,#ff9335), color-stop(85%,#ff7000), color-stop(100%,#f34d03)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f34d03 1%,#ff7000 26%,#ff9030 43%,#ff9335 60%,#ff7000 85%,#f34d03 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f34d03 1%,#ff7000 26%,#ff9030 43%,#ff9335 60%,#ff7000 85%,#f34d03 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f34d03 1%,#ff7000 26%,#ff9030 43%,#ff9335 60%,#ff7000 85%,#f34d03 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f34d03 1%,#ff7000 26%,#ff9030 43%,#ff9335 60%,#ff7000 85%,#f34d03 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f34d03', endColorstr='#f34d03',GradientType=0 ); /* IE6-9 */
+}
+
+/*------------------ Secciones centrales--------------------------- */
+
+/* Introductorios */
+#impts{
+	width: 100%;
+	margin-top: 20px;
+	}
+
+#impts section{
+	float: left;
+	position: relative;
+	margin-top: 30px;
+}
+
+#contenido1, #contenido2{
+	width: 100%;
+}
+
+#contenido1 h2,
+#contenido2 h2{
+	float: left;
+	width: 70%;
+   	font-weight: 500;
+	text-align: left;
+	font-size: 26px;
+	letter-spacing: -1px;
+	color: #0F9FFF;	
+}	
+
+
+#contenido1 .prevista,#contenido2 .prevista{
+	width: 30%;
+	height: 250px;
+	margin: 0 0 0 0;
+	padding-top: 15px;
+}
+.prevista img{
+	width: 90%;
+	height: 100%;
+	margin-left: 5%;
+}
+
+#contenido1 .prevista{	float: left;  }
+#contenido2 .prevista{	float: right;  }
+
+
+
+#contenido1 p,
+#contenido2 p{
+	text-align: justify;
+	color: #EAEAEA;
+	font-size: 15px;
+}
+.oculto{
+	display: none;
+	width: 100%;
+}
+
+#contenido1 a,
+#contenido2 a{
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 15px 0 0 0px;
+	width: 80px;
+	padding: 10px;
+	background: rgb(247,176,34); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(247,176,34,1) 0%, rgba(244,80,2,1) 84%, rgba(244,80,2,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,176,34,1)), color-stop(84%,rgba(244,80,2,1)), color-stop(100%,rgba(244,80,2,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(247,176,34,1) 0%,rgba(244,80,2,1) 84%,rgba(244,80,2,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(247,176,34,1) 0%,rgba(244,80,2,1) 84%,rgba(244,80,2,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(247,176,34,1) 0%,rgba(244,80,2,1) 84%,rgba(244,80,2,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(247,176,34,1) 0%,rgba(244,80,2,1) 84%,rgba(244,80,2,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7b022', endColorstr='#f45002',GradientType=0 ); /* IE6-9 */
+	color: #fff;	
+}
+
+#contenido1 a:hover,#contenido2 a:hover{	background: #F45002;	}
+
+
+	 
+
+
+
+
+
+
+
+
+
