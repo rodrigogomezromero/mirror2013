@@ -8,20 +8,22 @@
 <!--StyleSheets -->
 <style type="text/css">
 	@import url("../css/heart.css");
-	@import url("../css/responsive_heart.css");	
+	@import url("../css/responsive_heart.css");
+	@import url("css/form.css");
 </style>
 
 
 <!-- JQuerys & JS -->
-<!-- IE y Nieve
-<script type="text/javascript" src="js/IEmiracle.js"></script>
+ 
+<script type="text/javascript" src="../js/IEmiracle.js"></script>
+<!--
 <script type="text/javascript" src="js/nieve-cursors.js"></script>
 -->
 
-<script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.cycle.js"></script>
-<script type="text/javascript" src="js/fx.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.cycle.js"></script>
+<script type="text/javascript" src="../js/fx.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 
 </head>
 <body>
@@ -53,17 +55,40 @@
 
 
 <article id="cuerpo">
-
-
-
-<div id="cycle">
-    		<div id="contslider">
-            <img src="cycle/debian_wall2.jpg" />          
-            <img src="cycle/debian_wall2.jpg" />		
+	<section id="form-container" >
+				<form action="source.php" id="" class="form-contact" method="method"><br>
+				<span class="demon">Nombre:</span><input type="text" name="name" id="name"><br>
+				<span class="demon">Correo:</span> <input type="mail" name="mail" id="mail"><br>
+				<span class="demon">Mensaje:</span> <br><textarea ></textarea><br>
+				<button type="submit"> Enviar</button>
+				
+			</form>
+			<div class="form-images-container">
+				<div class="images-contacto">
+					
+				</div>
+				<div class="form-images-info">
+						<span class="demon">
+							telefono:
+						</span> 9831240976
+						<span class="demon">
+							Correo:
+						</span> rodrigog@mirrorwebhost.com
+					</div>
+				<div class="images-contacto"></div>
+				<div class="form-images-info">
+						<span class="demon">
+							telefono:
+						</span> 9831240976
+						<span class="demon">
+							Correo:
+						</span> rodrigog@mirrorwebhost.com
+					</div>
 			</div>
-</div>
-
-
+			
+					
+			
+	</secction>
 </article>
 
 
